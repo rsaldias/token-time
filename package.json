@@ -1,0 +1,11 @@
+{
+  "name": "token-time",
+  "version": "1.0.7",
+  "description": "token with expiration time, generated from a json object",
+  "main": "lib/token-time.js",
+  "scripts": {
+    "test": "run"
+  },
+  "author": "rsaldias",
+  "license": "ISC"
+}
