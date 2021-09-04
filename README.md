@@ -25,3 +25,6 @@ console.log('verified: ', verified(key, payload64))
 console.log('timer: ', timer(key, payload64))
 
 console.log('data: ', getJson(key, payload64))
+
+// Update new function
+

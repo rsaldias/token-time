@@ -1,6 +1,6 @@
 // Test from dev
 
-const { getTokenTime, verified, timer, hashSha256Hex , getJson} = require('./lib/token-time');
+const { getTokenTime, verified, timer, hashSha256Hex , getJson, randomIntegerNumber} = require('./lib/token-time');
 
 
 const JsonMsg = {
@@ -28,8 +28,5 @@ console.log('timer: ', timer(key, payload64))
 
 console.log('data: ', getJson(key, payload64))
 
-var newStr = payload64.replace(/\//g, '_');
-
-console.log('newStr: ', newStr)
-console.log('payload64: ', payload64)
+console.log('random Integer Number: ', randomIntegerNumber(0, 100))
 
